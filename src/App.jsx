@@ -28,7 +28,12 @@ function App() {
   return (
     <ThemeProvider>
       <ActiveTabProvider>
-        <Router>
+        <Router
+          future={{
+            v7_startTransition: true,
+            v7_relativeSplatPath: true
+          }}
+        >
           <Layout>
             <Routes>
               <Route path="/" element={<Home />} />
@@ -49,5 +54,6 @@ function App() {
     </ThemeProvider>
   );
 }
+
 
 export default App;

@@ -92,7 +92,7 @@ export default function AboutSection() {
     <section
       ref={containerRef}
       className="py-20 relative bg-gradient-to-b from-white via-rose-50/50 to-white 
-      dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 overflow-hidden -mt-36"
+      dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 overflow-hidden -mt-40"
     >
       {/* Background glows */}
       <div className="absolute -top-10 left-0 w-64 h-64 bg-rose-300/25 blur-[110px]"></div>

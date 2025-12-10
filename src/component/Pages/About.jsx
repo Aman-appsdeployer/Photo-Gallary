@@ -13,7 +13,7 @@ export default function About() {
   const testimonials = [
     {
       quote:
-        "Aman captured our wedding more beautifully than we imagined. Every frame tells the story of the day.",
+        "Aditya captured our wedding more beautifully than we imagined. Every frame tells the story of the day.",
       name: "Priya & Rohit",
       role: "Wedding Clients",
       avatar: "/images/img3.jpg",
@@ -34,7 +34,7 @@ export default function About() {
   ];
 
   const team = [
-    { name: "Aman Gupta", title: "Lead Photographer", img: "/images/img1.jpg" },
+    { name: "Ansh ", title: "Lead Photographer", img: "/images/img1.jpg" },
     { name: "Anjali Sharma", title: "Assistant Photographer", img: "/images/img2.jpg" },
     { name: "Arjun Patel", title: "Photo Editor", img: "/images/img3.jpg" },
   ];
