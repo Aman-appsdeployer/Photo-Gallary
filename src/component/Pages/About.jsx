@@ -45,8 +45,12 @@ export default function About() {
     "/images/images.jpg",
     "/images/img133.jpg",
     "/images/img3.jpg",
-    "/images/img21.jpg",
-    "/images/web.jpg",
+    "/images/img6.jpg",
+    "/images/img7.jpg",
+    "/images/img8.jpg",
+    "/images/img9.jpg",
+ 
+    
   ];
 
   // reveal + counters
@@ -236,7 +240,7 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.12 }}
             className="rounded-xl overflow-hidden shadow-2xl relative"
           >
-            <img src="/images/img21.jpg" alt="Couple portrait" className="w-full h-80 object-cover" />
+            <img src="/images/img6.jpg" alt="Couple portrait" className="w-full h-80 object-cover" />
             <div className="absolute left-6 bottom-6 bg-white/90 dark:bg-black/70 px-3 py-1 rounded-full text-sm">Trusted • Awarded</div>
           </motion.div>
         </div>

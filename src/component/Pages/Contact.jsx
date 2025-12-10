@@ -54,10 +54,10 @@ export default function Contact() {
     }
   };
 
-  const hero = "/images/img2.jpg";
+  const hero = "/images/img11.jpg";
 
   return (
-    <main className="pt-24 min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 selection:bg-emerald-200 selection:text-emerald-900">
+    <main className="pt-20 min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 selection:bg-emerald-200 selection:text-emerald-900">
 
       {/* HERO SECTION */}
       <section className="relative h-64 md:h-72 lg:h-96 overflow-hidden">
