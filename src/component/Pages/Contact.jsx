@@ -54,7 +54,7 @@ export default function Contact() {
     }
   };
 
-  const hero = "/images/img21.jpg";
+  const hero = "/images/img2.jpg";
 
   return (
     <main className="pt-24 min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 selection:bg-emerald-200 selection:text-emerald-900">
