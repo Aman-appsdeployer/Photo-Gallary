@@ -135,6 +135,13 @@ export function Footer() {
           >
             Contact Us
           </a>
+          <a
+            href="/profile"
+            onClick={(e) => handleNavigate(e, "/profile")}
+            className={`${isActive("/profile") ? "text-cyan-400 font-bold" : "text-white hover:text-cyan-400"}`}
+          >
+            Profile
+          </a>  
         </div>
 
         <div className="mt-10 text-center text-xs text-gray-400 leading-relaxed">

@@ -92,6 +92,9 @@ function DesktopNavigation() {
         <NavItem href="/contact" isActive={activeTab === "/contact"} onClick={() => go("/contact")}>
           Contact
         </NavItem>
+        <NavItem href="/profile" isActive={activeTab === "/profile"} onClick={() => go("/profile")}>
+          Profile
+        </NavItem>
 
         
       </ul>
@@ -180,6 +183,14 @@ function MobileNavigation() {
                           Contact
                         </button>
                       </li>
+                      <li>
+                        <button
+                          onClick={() => handleNav("/profile", close)}
+                          className="w-full text-left px-2 py-2 text-white hover:text-cyan-400"
+                        >
+                          Profile
+                        </button>
+                      </li> 
 
                      
 
