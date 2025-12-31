@@ -1,24 +1,24 @@
 import { Route, Routes } from "react-router-dom";
 
-import { ActiveTabProvider } from "./component/ActiveTabProvider";
-import ProtectedRoute from "./component/ProtectedRoute";
-import { ThemeProvider } from "./component/ThemeContext";
+import { ActiveTabProvider } from "./components/ActiveTabProvider";
+import ProtectedRoute from "./components/ProtectedRoute";
+import { ThemeProvider } from "./components/ThemeContext";
 
 /* ================= PUBLIC COMPONENTS ================= */
-import Footer from "./component/Footer";
-import Navbar from "./component/Navbar";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 /* ================= PAGES ================= */
-import AboutPage from "./component/Pages/About";
-import Contact from "./component/Pages/Contact";
-import Create from "./component/Pages/Create";
-import Gallery from "./component/Pages/Gallery";
-import Home from "./component/Pages/Home";
-import Login from "./component/Pages/Login";
-import OurProduct from "./component/Pages/OurProduct";
+import AboutPage from "./components/Pages/About";
+import Contact from "./components/Pages/Contact";
+import Create from "./components/Pages/Create";
+import Gallery from "./components/Pages/Gallery";
+import Home from "./components/Pages/Home";
+import Login from "./components/Pages/Login";
+import OurProduct from "./components/Pages/OurProduct";
 
 /* ================= CLIENT ================= */
-import AlbumGallery from "./component/Pages/client/AlbumGallery";
+import AlbumGallery from "./components/Pages/client/AlbumGallery";
 
 /* ================= ADMIN COMPONENTS ================= */
 import AddPhotographer from "./admin/AddPhotographer";
