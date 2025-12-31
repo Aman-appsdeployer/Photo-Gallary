@@ -3,6 +3,7 @@ import CardSection from "../CardSection.jsx";
 import GallerySection from "../GallerySection.jsx";
 import ImageCarousel from "../ImageCarousel.jsx";
 import TestimonialsSection from "../TestimonialsSection.jsx";
+
 function Home() {
   return (
     <div className="bg-white dark:bg-gray-900">

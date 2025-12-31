@@ -13,6 +13,7 @@ import AboutPage from "./component/Pages/About";
 import Contact from "./component/Pages/Contact";
 import Create from "./component/Pages/Create";
 import Gallery from "./component/Pages/Gallery";
+import Home from "./component/Pages/Home";
 import Login from "./component/Pages/Login";
 import OurProduct from "./component/Pages/OurProduct";
 
@@ -160,7 +161,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
