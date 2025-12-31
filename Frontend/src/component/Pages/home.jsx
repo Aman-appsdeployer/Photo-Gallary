@@ -15,7 +15,7 @@ function Home() {
         <CardSection />
       </section>
 
-x      <section className="max-w-6xl mx-auto px-4 py-12">
+      <section className="max-w-6xl mx-auto px-4 py-12">
         <GallerySection />
       </section>
 
